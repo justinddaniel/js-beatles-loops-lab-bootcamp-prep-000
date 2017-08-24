@@ -22,4 +22,5 @@ function iLoveTheBeatles(n) {
   while (n - i > 0) {
     console.log (i++)
   }
+  return array
 }
