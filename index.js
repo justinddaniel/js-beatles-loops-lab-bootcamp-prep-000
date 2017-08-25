@@ -14,13 +14,9 @@ function johnLennonFacts(facts) {
   }
   return array
 }
-
 function iLoveTheBeatles(n) {
   var array = []
-  let i = 0
-  if (n < 15) do {array.push("I love the Beatles!"); console.log (i++);}
-  while ((n - i + 1) > 0);
-  return array;
-  if (n >= 15) {array.push("I love the Beatles!")}
+  do {array.push("I love the Beatles!"); console.log (n++);}
+  while (n < 15);
   return array
 }
