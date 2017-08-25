@@ -21,5 +21,6 @@ function iLoveTheBeatles(n) {
   if (n < 15) do {array.push("I love the Beatles!"); console.log (i++);}
   while ((n - i + 1) > 0);
   return array;
-  if (n > 15) {array.push("I love the Beatles!"); return array}
+  if (n >= 15) {array.push("I love the Beatles!")} 
+  return array
 }
