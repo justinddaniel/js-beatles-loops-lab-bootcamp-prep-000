@@ -19,7 +19,7 @@ function iLoveTheBeatles(n) {
   var array = []
   let i = 0
   if (n < 15 | i = 0) { do {array.push("I love the Beatles!"); console.log (i++)}
-  while (n - i > 0);
+  while ((n - i + 1) > 0);
   return array
 }
 else {array.push("I love the Beatles!"); return array}
